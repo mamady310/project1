@@ -1,0 +1,113 @@
+/*code for smart phones 
+@media screen and (min-width:400px)(max-width: 700px)
+
+/*code for tablets 
+@media screen and (min-width: 700px)(max-width: 800px)
+
+}
+/*code for desktop 
+@media screen and (min-width: 800px)(max-width: 1200px)
+
+for some reason when I added responsive design only my body tag was not rendered
+*/
+
+
+ body {
+ background: linear-gradient(
+ to right,
+ white 0%,
+ white 70%,
+ rgb(30,30,72) 30%,
+ rgb(30,30,72) 100%
+ );
+}
+
+.topnav {
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: 100;
+color: rgb(30,30,72);
+font-size: 14px;
+display: flex;
+justify-content: space-around;
+margin: 10px;
+}
+
+header{
+  color: rgb(30,30,72);
+}
+h1{
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{ 
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(30,30,72);
+}
+hr {
+ text-align: left; 
+ margin-left: 0;
+  width: 5%;
+}
+p {
+  color: rgb(182,182,196);  
+}
+
+.upbutton {
+  background-color: rgb(255,255,255);
+  border-radius:28px;
+  border: 3px solid;
+  border-color: white;
+  display:inline-block;
+  color: rgb(30, 30, 72);
+  font-family: Arial;
+  font-size:14px;
+  padding:16px 32px;
+  text-shadow:0px 1px 0px #2f6627;
+  text-decoration: none; 
+  margin-left: 1050px;
+}
+ 
+.inbutton {
+  background-color: rgb(30,30,72);
+  border-radius:28px;
+  border:2px solid white;
+  display:inline-block;
+  color: white;
+  font-family: Ariel;
+  font-size:14px;
+  padding:16px 32px;
+  text-shadow:0px 1px 0px #2f6627;
+  text-decoration: none;
+  margin-left: 90px;
+}
+.button {
+  background-color: rgb(237,103,52);
+  border-radius:28px;
+  border:1px solid rgb(237,103,52);
+  display:inline-block;
+  color: white;
+  font-family: Ariel;
+  font-size:14px;
+  padding:16px 32px;
+  text-shadow:0px 1px 0px #2f6627;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: left;
+  margin-left: 30px;
+   }
