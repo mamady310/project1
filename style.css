@@ -106,19 +106,22 @@ footer {
   text-align: left;
   margin-left: 30px;
    }
-
+/* 
 @media screen and (max-width: 479px){
- /* .topnav {
+ .topnav {
    display: block;
  }
  body {
    background: white;
- } */
+ }
 }
 @media screen and(max-width: 800px) {
-  /* body {
+  body {
    background-color: white;
-   } */
+   }
+   .topnav {
+     display: block;
+   }
 
 }
 @media screen and (max-width: 1200px){
@@ -132,4 +135,43 @@ footer {
     rgb(30,30,72) 100%
     );
    }
-}
+} */
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .topnav a{
+    display: block;
+    color: white;
+    
+  }
+  header {
+    background-color: blue;
+    color: white;
+  }
+  h1{
+    font-size: 40px;
+  }
+  body {
+    background-color: yellow;
+    background: linear-gradient(
+ to right,
+ white 0%,
+ white 70%
+ );
+  }
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 75%;
+     }
+   body {
+     height: 75%;
+   }  
+  }
+
+  @media screen and (max-width: 991px) {
+  
+  
+    }
